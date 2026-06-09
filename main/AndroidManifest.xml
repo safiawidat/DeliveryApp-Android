@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BrinGo">
+
+        <!-- Launcher: decides where to go (login/customer/carrier) -->
+        <activity
+            android:name=".ui.auth.StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false" />
+
+        <!-- Customer -->
+        <activity
+            android:name=".ui.customer.CustomerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CreateRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.RequestCheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CustomerOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CustomerHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CustomerTrackingActivity"
+            android:exported="false" />
+
+        <!-- Carrier -->
+        <activity
+            android:name=".ui.carrier.CarrierHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.carrier.CarrierJobActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- spacing -->
+    <dimen name="spacing_4">4dp</dimen>
+    <dimen name="spacing_6">6dp</dimen>
+    <dimen name="spacing_12">12dp</dimen>
+    <dimen name="spacing_14">14dp</dimen>
+    <dimen name="spacing_16">16dp</dimen>
+    <dimen name="spacing_20">20dp</dimen>
+    <dimen name="spacing_28">28dp</dimen>
+
+    <!-- title control (size + width control) -->
+    <dimen name="title_text">32sp</dimen>
+    <dimen name="subtitle_text">14sp</dimen>
+    <dimen name="section_title_text">18sp</dimen>
+    <dimen name="body_text">13sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+
+    <dimen name="title_max_width">260dp</dimen>
+    <dimen name="logo_size">72dp</dimen>
+
+    <!-- buttons -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="btn_radius">14dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="bringo_bg_1">#FFE9C0</color>
+    <color name="bringo_bg_2">#F8C16B</color>
+
+    <!-- Brand -->
+    <color name="bringo_primary">#EF1717</color>
+    <color name="bringo_title">#F66B03</color>
+    <color name="bringo_subtitle">#000000</color>
+    <color name="bringo_section_title">#222222</color>
+    <color name="bringo_outline">#FF9400</color>
+
+    <!-- Cards & lines -->
+    <color name="bringo_card">#F8C16B</color>
+    <color name="bringo_divider">#1A000000</color>
+
+    <!-- Buttons -->
+    <color name="bringo_button_text">#F66B03</color>
+
+
+</resources>

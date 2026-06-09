@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BrinGoButtonPrimary">
+        <item name="android:background">@drawable/bg_btn_primary</item>
+
+        <!-- stop Material tint -->
+        <item name="backgroundTint">@null</item>
+        <item name="android:backgroundTint">@null</item>
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BrinGoButtonOutline">
+        <item name="android:background">@drawable/bg_btn_outline</item>
+
+        <item name="backgroundTint">@null</item>
+        <item name="android:backgroundTint">@null</item>
+
+        <item name="android:textColor">@color/bringo_section_title</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BrinGo</string>
+    <string name="start_subtitle">Fast deliveries between people</string>
+
+    <string name="start_customer">Customer</string>
+    <string name="start_customer_hint">Create a request and track your delivery</string>
+
+    <string name="start_carrier">Carrier</string>
+    <string name="start_carrier_hint">Accept requests and update delivery status</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_customer">Register Customer</string>
+
+    <string name="start_footer">By continuing, you agree to basic app usage rules</string>
+    <string name="subtitle_checkout">Checkout</string>
+    <string name="subtitle_tracking">Tracking</string>
+    <string name="subtitle_orders">My Orders</string>
+    <string name="subtitle_history">History</string>
+    <string name="subtitle_carrier_job">Carrier Job</string>
+    <string name="subtitle_carrier_balance">Balance</string>
+</resources>
